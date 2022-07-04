@@ -27,5 +27,6 @@ if (numeroKilometri >= 1){
         document.getElementById('totTravel').innerHTML = 'Il prezzo totale è ' + '' + num + '€';
     }
 } else{
+    alert('ATTENZIONE! Inserire un numero valido!')
     const numeroKilometri = parseInt(prompt('Richiedi il numero di Km'));
 }
