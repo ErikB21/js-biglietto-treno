@@ -1,4 +1,4 @@
-const numeroKilometri = parseInt(prompt('Richiedi il numero di Km'));
+const numeroKilometri = parseInt(prompt('Quanti Km desidera fare?'));
 const prezzoKilometro = 0.21;
 const prezzoTotale = numeroKilometri * prezzoKilometro;
 
@@ -12,7 +12,7 @@ let num = prezzoTotale.toFixed(2);
 
 
 if (numeroKilometri >= 1){
-    const età = parseInt(prompt('Richiedi Età'));
+    const età = parseInt(prompt('La sua Età'));
     if (età < 18){
         const scontoRagazzi= prezzoTotale * 0.8;
         console.log(scontoRagazzi);
