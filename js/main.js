@@ -12,21 +12,21 @@ let num = prezzoTotale.toFixed(2);
 
 
 if (numeroKilometri >= 1){
-    const età = parseInt(prompt('La sua Età'));
-    if (età < 18){
-        const scontoRagazzi= prezzoTotale * 0.8;
+    const eta = parseInt(prompt('La sua Età'));
+    if (eta < 18){
+        scontoRagazzi;
         console.log(scontoRagazzi);
         document.getElementById('totTravel').innerHTML = 'Il prezzo totale è ' + '' + n + '€';
-    } else if (età >= 65){
-        const scontoAnziani = prezzoTotale * 0.6;
+    } else if (eta >= 65){
+        scontoAnziani;
         console.log(scontoRagazzi);
         document.getElementById('totTravel').innerHTML = 'Il prezzo totale è ' + '' + nu + '€';
     }else{
-        const prezzoTotale = numeroKilometri * prezzoKilometro;
+        prezzoTotale;
         console.log(prezzoTotale);
         document.getElementById('totTravel').innerHTML = 'Il prezzo totale è ' + '' + num + '€';
     }
 } else{
     alert('ATTENZIONE! Inserire un numero valido!')
-    const numeroKilometri = parseInt(prompt('Richiedi il numero di Km'));
+    numeroKilometri;
 }
