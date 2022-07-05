@@ -12,7 +12,7 @@ let num = prezzoTotale.toFixed(2);
 
 
 if (numeroKilometri >= 1){
-    const eta = parseInt(prompt('La sua Età'));
+    const età = parseInt(prompt('La sua Età'));
     if (età < 18){
         const scontoRagazzi= prezzoTotale * 0.8;
         console.log(scontoRagazzi);
